@@ -7,8 +7,8 @@ const handleClick = () => {
     setIsClosed(!isClosed)
 }
     return(
-
-        <div className="container__modal">
+        !isClosed && 
+            <div className="container__modal">
             <div className="container__modal-text">
                 <span className="modal-title">{title}</span>
                 <span>{description}</span>

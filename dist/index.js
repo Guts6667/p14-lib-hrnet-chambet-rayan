@@ -20,7 +20,7 @@ var Modal = function Modal(_ref) {
   var handleClick = function handleClick() {
     setIsClosed(!isClosed);
   };
-  return /*#__PURE__*/_react.default.createElement("div", {
+  return !isClosed && /*#__PURE__*/_react.default.createElement("div", {
     className: "container__modal"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "container__modal-text"
