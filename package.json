@@ -1,7 +1,7 @@
 {
   "name": "p14-lib-hrnet-chambet-rayan",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.12",
@@ -40,5 +40,6 @@
   },
   "devDependencies": {
     "babel-preset-react": "^6.24.1"
-  }
+  },
+  "main": "dist/index.js",  "module": "dist/index.js",  "files": [ "dist", "README.md" ],  "repository": {    "type": "git",    "url": "https://github.com/Guts6667/p14-lib-hrnet-chambet-rayan.git"  }
 }
