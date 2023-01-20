@@ -10,9 +10,9 @@ In the front-end side, run:
 ## Usage
 
 ```jsx
-import React, { Component } from "react";
+import React from "react";
 
-import MyComponent from "p14-lib-hrnet-chambet-rayan";
+import Modal from "p14-lib-hrnet-chambet-rayan";
 
 const Home = () => {
   return (

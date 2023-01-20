@@ -1,6 +1,6 @@
 {
   "name": "p14-lib-hrnet-chambet-rayan",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": false,
   "dependencies": {
     "@babel/cli": "^7.20.7",
