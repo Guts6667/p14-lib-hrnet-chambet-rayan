@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import './modal.css';
 
+/**
+ * 
+ * @param {String} title
+ * @param {String} description
+ * @param {String} buttonText
+ * @returns {JSX} React Component
+ */
+
 const Modal = ({title, description, buttonText}) => {
 const [isClosed, setIsClosed] = useState(false);
 const handleClick = () => {
